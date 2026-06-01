@@ -35,3 +35,9 @@ user:
   service:
     id: USER-SERVICE
 
+mangement:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
