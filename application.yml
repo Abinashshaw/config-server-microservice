@@ -22,3 +22,16 @@ resilience4j.circuitbreaker:
       waitDurationInOpenState: 10000
       permittedNumberOfCallsInHalfOpenState: 2
       failureRateThreshold: 50
+
+hotel:
+  service:
+    id: HOTEL-SERVICE
+
+rating:
+  service:
+    id: RATING-SERVICE
+
+user:
+  service:
+    id: USER-SERVICE
+
