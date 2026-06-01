@@ -34,3 +34,17 @@ rating:
 user:
   service:
     id: USER-SERVICE
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      waitDurationInOpenState: 10000
+      permittedNumberOfCallsInHalfOpenState: 2
+      failureRateThreshold: 50
+
+resilience4j.retry:
+  configs:
+    default:
+      maxAttempts: 3
+      waitDuration: 2s
