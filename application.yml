@@ -22,7 +22,7 @@ resilience4j.circuitbreaker:
       waitDurationInOpenState: 10000
       permittedNumberOfCallsInHalfOpenState: 2
       failureRateThreshold: 50
-      minimumNumberOfCalls: 5
+      minimumNumberOfCalls: 10
 
 hotel:
   service:
